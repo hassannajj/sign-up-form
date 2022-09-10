@@ -37,6 +37,45 @@ img {
     z-index: 2;
 }
 
-.content * {
-    height: 33%;
+.top-section {
+    height: 30%;
+    padding: 10px;
+    padding-top: 10%;
+}
+
+.bottom-section {
+    height: 70%;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    gap: 25px;
+}
+
+.row * {
+    width: 50%;
+}
+
+input {
+    color: black;
+    min-height: 10px;
+    min-width: 90%;
+    border-color: lightgreen;
+}
+
+button {
+    align-self:flex-start;
+    color: black;
+}
+
+a {
+    color: darkgreen;
 }
